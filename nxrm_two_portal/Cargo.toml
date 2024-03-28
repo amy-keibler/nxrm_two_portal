@@ -14,6 +14,6 @@ eyre = "0.6.12"
 itertools = "0.12.1"
 mime = "0.3.17"
 serde = { version = "1.0.197", features = ["derive"] }
-tokio = { version = "1.36.0", features = ["macros", "fs", "rt-multi-thread", "tracing"] }
+tokio = { version = "1.37.0", features = ["macros", "fs", "rt-multi-thread", "tracing"] }
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter", "fmt"] }
